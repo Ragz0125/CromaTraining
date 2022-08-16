@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root{
+    --blue:rgb(52, 189, 248);
+    --dark-color: rgb(11, 68, 89);     
+    --light-color: darkgrey;
+    --black: black;
+    --border: .1rem solid rgbs(0,0,0,0.1);
+    --border-hover: .1rem solid (var(--black));
+    --box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0; padding:0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+
+input{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: .5rem;
+    width: 22rem;
+    height: 2rem;
+}
+
+.btn-form{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: var(--blue);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+html{
+    font-size: 67.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+.header .header-1{
+    background: #fff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.header .header-1 .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--blue);
+}
+
+.header .login-section{
+    background: url(banner-bg.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.header .login-form .login{
+    border-radius: 10px;
+    background: lightblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10rem;
+}
+
+
+
+
+
+
